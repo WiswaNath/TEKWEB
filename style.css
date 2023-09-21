@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f50000;
+    border-radius: 5px;
+    background-color: #7558ce;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #090404;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.delete {
+    color: #ec1010;
+    cursor: pointer;
+}
+
+/* Media query untuk tampilan responsif */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
