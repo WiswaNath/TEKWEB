@@ -1,0 +1,120 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h3{
+  text-align:center;
+  margin:0 auto;
+  padding : 15px;
+  
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"],
+button {
+  padding: 10px 20px;
+  background-color: #ee0808;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button:hover {
+  background-color: #555;
+}
+
+
+/* Gaya untuk daftar produk */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Gaya untuk informasi produk */
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-name {
+  flex-grow: 1; /* Produk Name akan mengisi sebanyak mungkin ruang */
+  margin-right: 10px; /* Jarak antara nama produk dan harga */
+}
+
+/* Gaya untuk tombol Edit dan Hapus */
+.product-actions {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button,
+.edit-button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin-left: 5px; /* Jarak antara tombol Edit dan tombol Delete */
+}
+
+
+li button:hover {
+  background-color: #555;
+}
